@@ -16,4 +16,4 @@ Array.prototype.filter = function (predicateFunction) {
   })
   return results
 }
-// JSON.stringify([1,2,3].filter(function(x) { return x > 2})) === "[3]"
+JSON.stringify([1, 2, 3].filter(function (x) { return x > 2 })) === '[3]'

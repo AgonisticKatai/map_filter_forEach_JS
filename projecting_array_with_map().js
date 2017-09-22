@@ -12,4 +12,4 @@ Array.prototype.map = function (projectionFunction) {
   })
   return results
 }
-// JSON.stringify([1,2,3].map(function(x) { return x + 1; })) === '[2,3,4]'
+JSON.stringify([1, 2, 3].map(function (x) { return x + 1 })) == '[2,3,4]'
